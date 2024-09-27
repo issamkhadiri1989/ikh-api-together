@@ -1,0 +1,30 @@
+{
+    "name": "ikh/api-together",
+    "version": "1.0.0",
+    "description": "This is an implementation of ApiTogether Client",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Issam KHADIRI",
+            "email": "khadiri.issam@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "symfony/http-kernel": "v7.0.*",
+        "symfony/http-client": "v7.0.*",
+        "symfony/dependency-injection": "v7.0.*",
+        "symfony/config": "v7.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ikh\\ApiTogetherBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ikh\\ApiTogetherBundle\\Tests\\": "src/tests/"
+        }
+    }
+}
