@@ -1,0 +1,20 @@
+parameters:
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    Ikh\ApiTogetherBundle\Client\DefaultApiTogetherClient: ~
+
+    Ikh\ApiTogetherBundle\Client\ApiTogetherClientInterface:
+        alias: Ikh\ApiTogetherBundle\Client\DefaultApiTogetherClient
+
+    Ikh\ApiTogetherBundle\Transformer\DefaultApiTogetherResponseTransformer: ~
+
+    Ikh\ApiTogetherBundle\Request\ApiTogetherRequester: ~
+
+    Ikh\ApiTogetherBundle\Request\RequesterInterface :
+        alias: Ikh\ApiTogetherBundle\Request\ApiTogetherRequester
+
+    Ikh\ApiTogetherBundle\Client\CustomApiTogetherClient: ~

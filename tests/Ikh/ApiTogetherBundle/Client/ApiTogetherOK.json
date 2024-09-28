@@ -1,0 +1,25 @@
+{
+    "id": "8c69aea46dad0d7a-MRS",
+    "object": "chat.completion",
+    "created": 1726917796,
+    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+    "prompt": [],
+    "choices": [
+        {
+            "finish_reason": "eos",
+            "seed": 11426917230396074000,
+            "logprobs": null,
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "Hello, world. What can I help you with today?",
+                "tool_calls": []
+            }
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 38,
+        "completion_tokens": 13,
+        "total_tokens": 51
+    }
+}
